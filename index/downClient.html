@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" Content="text/html; Charset=utf-8">
+  
+  <title>客户端下载</title>
+  
+  <link rel="stylesheet" type="text/css" href="../res/css/header.css" />
+  <link rel="stylesheet" type="text/css" href="../res/css/footer.css" />
+  <link rel="stylesheet" type="text/css" href="../res/css/common.css" />
+  <link rel="stylesheet" type="text/css" href="../res/css/index.css" />
+  <link rel="stylesheet" type="text/css" href="../res/css/banner.css" />
+  <link rel="stylesheet" type="text/css" href="../res/css/radius/css_base.css" />
+  <link rel="stylesheet" type="text/css" href="../res/css/aboutUs.css" />
+  <link rel="stylesheet" type="text/css" href="../res/css/exerciseProInfo.css" />
+  <link rel="stylesheet" type="text/css" href="../res/css/down.css" />
+  
+  <script type="text/javascript" src="../res/js/jquery-1.7.1.js"></script>
+  <script>
+      $(document).ready(
+	    function(){
+		
+		 $("#index a").click( function(){
+            $("#index").css("background-color" , "#003478");  $("#index a").css("color" , "white");
+			$("#pro").css("background-color" , "");  $("#pro a").css("color" , "#184785");
+			$("#new").css("background-color" , "");  $("#new a").css("color" , "#184785");
+			$("#down").css("background-color" , "");  $("#down a").css("color" , "#184785");
+			$("#notice").css("background-color" , "");  $("#notice a").css("color" , "#184785");
+         });
+		
+		 $("#pro a").click( function(){
+		    $("#pro").css("background-color" , "#003478");  $("#pro a").css("color" , "white");
+			$("#index").css("background-color" , "");  $("#index a").css("color" , "#184785");
+			$("#new").css("background-color" , "");  $("#new a").css("color" , "#184785");
+			$("#down").css("background-color" , "");  $("#down a").css("color" , "#184785");
+			$("#notice").css("background-color" , "");  $("#notice a").css("color" , "#184785");
+		 });
+		 
+		 $("#new a").click( function(){
+		    $("#new").css("background-color" , "#003478");  $("#new a").css("color" , "white");
+			$("#pro").css("background-color" , "");  $("#pro a").css("color" , "#184785");
+			$("#index").css("background-color" , "");  $("#index a").css("color" , "#184785");
+			$("#down").css("background-color" , "");  $("#down a").css("color" , "#184785");
+			$("#notice").css("background-color" , "");  $("#notice a").css("color" , "#184785");
+		 });
+		 
+		 $("#down a").click( function(){
+		    $("#down").css("background-color" , "#003478");  $("#down a").css("color" , "white");
+			$("#pro").css("background-color" , "");  $("#pro a").css("color" , "#184785");
+			$("#new").css("background-color" , "");  $("#new a").css("color" , "#184785");
+			$("#index").css("background-color" , "");  $("#index a").css("color" , "#184785");
+			$("#notice").css("background-color" , "");  $("#notice a").css("color" , "#184785");
+         });
+		 
+		 $("#notice a").click( function(){
+		    $("#notice").css("background-color" , "#003478"); $("#notice a").css("color" , "white");
+			$("#pro").css("background-color" , "");  $("#pro a").css("color" , "#184785");
+			$("#new").css("background-color" , "");  $("#new a").css("color" , "#184785");
+			$("#down").css("background-color" , "");  $("#down a").css("color" , "#184785");
+			$("#index").css("background-color" , "");  $("#index a").css("color" , "#184785");
+		 });
+		 
+		 $(".proInfoPage a").click( function(){
+		    $(this).css("background-color" , "#e1e1e1");
+			
+		 });
+	  });
+  </script>
+</head>
+
+<body>
+
+
+     <!--页头-->
+	 <div class="header">
+	   <div class="headerTop">
+	       <div class="logReg"><a href="javascript:void(0);">登录</a> | <a href="javascript:void(0);">注册</a></div>
+	       <div class="header_logo_tit">
+	            <div class="logo"><a href="javascript:void(0);"><img src="../res/images/logo.PNG" /></a></div>
+	       </div>
+		</div>
+		
+	    <div class="headerBottom"> 
+		    <ul>
+			   <li class="liwid" name="index" id="index"><a href="index.html">首页</a></li> 
+			        <li><img src="../res/images/index/line.gif" /></li>
+					
+			   <li class="liwid" name="pro" id="pro"><a href="exerciseProInfo.html">实验项目信息</a></li> 
+			       <li><img src="../res/images/index/line.gif" /></li>
+				   
+			   <li class="liwid" name="new" id="new"><a href="newPublish.html">新闻动态</a></li> 
+			       <li><img src="../res/images/index/line.gif" /></li>
+				   
+			   <li class="liwid" name="down" id="down"><a href="downClient.html">下载</a></li> 
+			       <li><img src="../res/images/index/line.gif" /></li>
+				   
+			   <li class="liwid" name="notice" id="notice"><a href="noticePublish.html">通知公告</a></li> 
+			       <li><img src="../res/images/index/line.gif" /></li>
+			</ul>
+			
+			<input id="sear" type="text" value="搜索" class="lay-radius-6" onclick="$('#sear').attr('value','');" />
+			
+		</div>
+	  
+	 </div>
+	 
+	 
+	 <!--中间板块-->
+	 <div class="indexCenter">
+	  <!---->
+	  <div class="aboutUsNav"><a href="javascript:void(0);">首页</a> > <a href="javascript:void(0);">下载</a></div>
+	  
+	  
+	  <!--University Introduce-->
+
+	  <!--左边数据：分类-->
+	  <div class="ProInfoLeft">
+	     <div class="proInfoClass"><a href="downClient.html">客户端下载</a></div>
+		 <div class="proInfoClass"><a href="exerciseProInfoDown.html">文档下载</a></div>
+	  </div>
+	  
+	  <!--右边数据：实验项目列表-->
+	  <div class="downRight">
+          <div class="downTitle">电子科技大学虚拟实验室客户端</div>
+		      <table class="downTable">
+			       <tr>
+				       <td>软件大小:10.4MB</td>
+					   <td></td>
+					  
+				   </tr>
+				   
+				   <tr>
+				       <td>最近更新:2014-08-08</td>
+					    <td class="downBtnToRig"><input type="image" value="客户端下载" src="../res/images/index/down.gif" /></td>
+				   </tr>
+				   
+				   <tr>
+				       <td>应用平台:Win7</td>
+					   <td></td>
+				   </tr>
+			  </table>
+	  </div>
+	  
+	 </div>
+	     
+	 
+	 
+	 
+	 
+	 <!--页尾-->
+	 <div class="line"></div>
+
+	 <div class="footer">
+	     <div class="footer_row1">Copyright&nbsp;@2014&nbsp;DZ88.com&nbsp;电子科技大学&nbsp;版权所有</div>
+		 <div class="footer_row2">备案号：22343456号</div>
+	 </div>	
+     
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

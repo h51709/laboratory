@@ -1,0 +1,14 @@
+.ProInfoLeft{width:200px;float:left;overflow:hidden;}
+
+.ProInfoRight{width:775px;float:right;overflow:hidden;}
+.ProInfoRight table{width:775px; border-collapse:collapse;font-family:宋体;font-size:12px;}
+
+.proInfoTab td{padding:4px;color:#5b5e60;}
+.ProInfoRight td{border:1px solid gray;text-align:center;}
+
+.proInfoClass{border-bottom:3px solid #d3d4d5;font-family:微软雅黑;font-size:14px;height:35px;line-height:45px;}
+
+.proInfoClass a{color:#454647;padding-left:14px;}
+
+.proInfoPage{text-align:right;margin-top:28px;}
+.proInfoPage a{padding:3px;font-family:宋体;font-size:16px;color:#003478;}

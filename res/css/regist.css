@@ -1,0 +1,19 @@
+.reg_tab{width:807px;min-height:694px;border:1px solid #e3e2e2;margin:0 auto;}
+.reg_tab_wel_message{padding-left:32px;border-bottom:1px dashed #e3e2e2;height:85px;overflow:hidden;}
+.regAccount{margin-top:23px;font-size:Î¢ÈíÑÅºÚ;font-size:24px;color:#003478;font-weight:bolder;}
+.reg_tab_wel{font-size:12px;font-family:ËÎÌå;color:#8d9193;height:12px;margin-top:8px;}
+.reg_row{padding-top:22px;}
+.reg_row input{width:270px;height:28px;line-height:28px;border:1px solid #e0e2e5;font-family:ËÎÌå;font-size:14px;color:#8f9091;}
+.reg_row .validate_input input{width:113px; height:28px; border:1px solid #e0e2e5;font-family:ËÎÌå;font-size:14px;color:#8f9091;}
+.inner{text-align:left;font-size:14px;font-family:Î¢ÈíÑÅºÚ;padding-left:12px;}
+.out{text-align:left;font-size:14px;font-family:Î¢ÈíÑÅºÚ;}
+
+.registTab{margin-left:45px;}
+.registTab td{padding:12px;}
+.rightAlign{font-size:14px;font-family:ËÎÌå;text-align:right;font-weight:bolder;}
+.rightAlign span{margin-right:10px;}
+td span{color:#ff9415;}
+.passTip{font-family:ËÎÌå;font-size:12px;color:#8f9091;}
+.refreshTip{font-size:12px;font-family:ËÎÌå;color:#8f9091;}
+.reg-btn{width:135px;height:42px;background-color:#0c4186;color:#ffffff;border:1px solid #0c4566;}
+.validateImg{border:1px solid gray;width:142px;height:31px;line-height:31px;font-size:12px;}

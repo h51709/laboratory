@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>学生选课</title>
+	<link rel="stylesheet" type="text/css" href="../res/css/header.css" />
+	<link rel="stylesheet" type="text/css" href="../res/css/footer.css" />
+	<link rel="stylesheet" type="text/css" href="../res/css/student.css">
+	<link rel="stylesheet" type="text/css" href="../res/css/base.css">
+	<script type="text/javascript" src="../res/js/jquery-1.7.1.js"></script>
+	<script type="text/javascript" src="../res/js/jquery.SuperSlide.2.1.1.js"></script>
+	<script type="text/javascript">
+		function def(){
+			$(".left li a").eq(0).css("background","#003478");
+			$(".left li a").eq(0).css("color","white");
+			$("iframe").attr("src",$(".left li a").eq(0).attr("src"));
+		}
+		$(function(){
+			$(".left").delegate("a","click",function(){
+				$(".left li a").css("background","white");
+				$(".left li a").css("color","black");
+				$(this).css("background","#003478");
+				$(this).css("color","white");
+				$("iframe").attr("src",$(this).attr("src"));
+			});
+			def();
+			$(".usr").click(function(){
+				$("iframe").attr("src",$(this).attr("src"));
+			});
+		});
+	</script>
+</head>
+<body>
+
+
+    <!--页头-->
+	<div class="header">
+		<div class="headerTop">
+		   <div class="logReg"></div>
+		   <div class="header_logo_tit">
+		        <div class="logo"><a href="javascript:void(0);"><img src="../res/images/logo.PNG" /></a></div>
+		   </div>
+		</div>
+		<div class="info"><a class="usr" src="../MyAccountInfo/MyAccountInfo.html">**</a>同学，您好！</div>
+	</div>
+	
+	<!--内容板块-->
+	<div class="main">
+		<div class="left">
+			<ul>
+				<li><a href="#" src="checked.html">已选列表</a></li>
+				<li><a href="#" src="checkClass.html">选择课程</a></li>
+			</ul>
+		</div>	
+		<div class="right">
+			<iframe src="" name="stu_fr" src="checked.html"></iframe>
+		</div>
+	</div>
+	 
+	<!--页尾-->
+	<div class="footer">
+		<div class="line"></div>
+		<div class="footer_row1">Copyright&nbsp;@2014&nbsp;DZ88.com&nbsp;电子科技大学&nbsp;版权所有</div>
+		<div class="footer_row2">备案号：22343456号</div>
+	</div>
+     
+</body>
+</html>

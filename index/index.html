@@ -1,0 +1,259 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" Content="text/html; Charset=utf-8">
+  
+  <title>首页</title>
+  
+  <link rel="stylesheet" type="text/css" href="../res/css/header.css" />
+  <link rel="stylesheet" type="text/css" href="../res/css/footer.css" />
+  <link rel="stylesheet" type="text/css" href="../res/css/common.css" />
+  <link rel="stylesheet" type="text/css" href="../res/css/index.css" />
+  <link rel="stylesheet" type="text/css" href="../res/css/banner.css" />
+  <link rel="stylesheet" type="text/css" href="../res/css/radius/css_base.css" />
+  
+  <script type="text/javascript" src="../res/js/jquery-1.7.1.js"></script>
+  <script type="text/javascript" src="../res/js/jquery.SuperSlide.2.1.1.js"></script>
+  <script>
+      $(document).ready(
+	    function(){
+		
+		 $("#index a").click( function(){
+            $("#index").css("background-color" , "#003478");  $("#index a").css("color" , "white");
+			$("#pro").css("background-color" , "");  $("#pro a").css("color" , "#184785");
+			$("#new").css("background-color" , "");  $("#new a").css("color" , "#184785");
+			$("#down").css("background-color" , "");  $("#down a").css("color" , "#184785");
+			$("#notice").css("background-color" , "");  $("#notice a").css("color" , "#184785");
+         });
+		
+		 $("#pro a").click( function(){
+		    $("#pro").css("background-color" , "#003478");  $("#pro a").css("color" , "white");
+			$("#index").css("background-color" , "");  $("#index a").css("color" , "#184785");
+			$("#new").css("background-color" , "");  $("#new a").css("color" , "#184785");
+			$("#down").css("background-color" , "");  $("#down a").css("color" , "#184785");
+			$("#notice").css("background-color" , "");  $("#notice a").css("color" , "#184785");
+		 });
+		 
+		 $("#new a").click( function(){
+		    $("#new").css("background-color" , "#003478");  $("#new a").css("color" , "white");
+			$("#pro").css("background-color" , "");  $("#pro a").css("color" , "#184785");
+			$("#index").css("background-color" , "");  $("#index a").css("color" , "#184785");
+			$("#down").css("background-color" , "");  $("#down a").css("color" , "#184785");
+			$("#notice").css("background-color" , "");  $("#notice a").css("color" , "#184785");
+		 });
+		 
+		 $("#down a").click( function(){
+		    $("#down").css("background-color" , "#003478");  $("#down a").css("color" , "white");
+			$("#pro").css("background-color" , "");  $("#pro a").css("color" , "#184785");
+			$("#new").css("background-color" , "");  $("#new a").css("color" , "#184785");
+			$("#index").css("background-color" , "");  $("#index a").css("color" , "#184785");
+			$("#notice").css("background-color" , "");  $("#notice a").css("color" , "#184785");
+         });
+		 
+		 $("#notice a").click( function(){
+		    $("#notice").css("background-color" , "#003478"); $("#notice a").css("color" , "white");
+			$("#pro").css("background-color" , "");  $("#pro a").css("color" , "#184785");
+			$("#new").css("background-color" , "");  $("#new a").css("color" , "#184785");
+			$("#down").css("background-color" , "");  $("#down a").css("color" , "#184785");
+			$("#index").css("background-color" , "");  $("#index a").css("color" , "#184785");
+		 });
+	  });
+  </script>
+</head>
+
+<body>
+
+
+     <!--页头-->
+	 <div class="header">
+	   <div class="headerTop">
+	       <div class="logReg"><a href="../Login/StudentLogin.html">登录</a> | <a href="../Regist/InnerRegist.html">注册</a></div>
+	       <div class="header_logo_tit">
+	            <div class="logo"><a href="javascript:void(0);"><img src="../res/images/logo.PNG" /></a></div>
+	       </div>
+		</div>
+		
+	    <div class="headerBottom"> 
+		    <ul>
+			   <li class="liwid" name="index" id="index"><a href="index.html">首页</a></li> 
+			        <li><img src="../res/images/index/line.gif" /></li>
+					
+			   <li class="liwid" name="pro" id="pro"><a href="exerciseProInfo.html">实验项目信息</a></li> 
+			       <li><img src="../res/images/index/line.gif" /></li>
+				   
+			   <li class="liwid" name="new" id="new"><a href="newPublish.html">新闻动态</a></li> 
+			       <li><img src="../res/images/index/line.gif" /></li>
+				   
+			   <li class="liwid" name="down" id="down"><a href="downClient.html">下载</a></li> 
+			       <li><img src="../res/images/index/line.gif" /></li>
+				   
+			   <li class="liwid" name="notice" id="notice"><a href="noticePublish.html">通知公告</a></li> 
+			       <li><img src="../res/images/index/line.gif" /></li>
+			</ul>
+			
+			<input id="sear" type="text" value="搜索" class="lay-radius-6" onclick="$('#sear').attr('value','');" />
+			
+		</div>
+	  
+	 </div>
+	 
+	 
+	 <!--中间板块-->
+	 <div class="indexCenter">
+	    <!--bannre 轮播图片-->
+        <div class="banner">
+	        <div id="slideBox" class="slideBox">
+		    <!--页码导航，备用
+			<div class="hd">
+				<ul><li>1</li><li>2</li><li>3</li></ul>
+			</div>
+		    -->
+			<div class="bd">
+				<ul>
+					<li><a href="#" ><img src="../res/images/index/ban1.jpg" /></a></li>
+					<li><a href="#" ><img src="../res/images/index/ban1.jpg" /></a></li>
+					<li><a href="#" ><img src="../res/images/index/ban1.jpg" /></a></li>
+				</ul>
+			</div>
+			<a class="prev" href="javascript:void(0)"></a>
+			<a class="next" href="javascript:void(0)"></a>
+		</div>
+		<script type="text/javascript">
+		    $(".slideBox").slide({mainCell:".bd ul",autoPlay:true});
+		</script>
+	  </div>
+	 
+	 
+	     <!--内容栏-->
+	     <div class="content">
+		 
+		 
+		 
+		    <!--新闻动态-->
+		    <div class="layout">
+			<img src="../res/images/index/newNav.gif" class="picToPos"/>
+			<div class="newLeft">
+			   <div class="readMore"><a href="newPublish.html"><img src="../res/images/index/readMore.gif" /></a></div>
+			   <div class="line2">
+			      <div class="uniPic"><img src="../res/images/index/university.gif" /></div>
+			      <div class="uniWords">
+				     <ul>
+			            <li><a href="javascript:void(0);">电子科技大学模拟实验室正式建立，欢迎广大师生积极为参与实验项目......</a><span>2014-08-20</span></li>
+					    <li><a href="javascript:void(0);">电子科技大学模拟实验室正式建立，欢迎广大师生积极为参与实验项目......</a><span>2014-08-20</span></li>
+					    <li><a href="javascript:void(0);">电子科技大学模拟实验室正式建立，欢迎广大师生积极为参与实验项目......</a><span>2014-08-20</span></li>
+					  </ul>
+			      </div>
+			   </div>
+			</div>
+			</div>
+			
+			
+			
+			<!--实验项目信息-->
+			<div class="newRight">
+			<img src="../res/images/index/proNav.gif" class="picToPos1"/>
+			     <div class="words">
+	                <div class="readMore"><a href="exerciseProInfo.html"><img src="../res/images/index/readMore.gif" /></a></div>
+				   
+				         <div class="proInfo">
+						      电子科技大学模拟实验室正式建立，欢迎广大师生积极为参与实验项目，
+						      电子科技大学模拟实验室正式建立，欢迎广大师生积极为参与实验项目，
+							  电子科技大学模拟实验室正式建立，欢迎广大师生...  
+					     </div>
+				  </div>
+				 <div class="cliDown">
+				   <input type="image" src="../res/images/index/downBtn.gif" value="点击下载"/>
+				   <!--这里提供了两种方式，按钮和超链接的形式，可以选择其中一种-->
+				   <!--<a href="#" onclick=""><img src="../res/images/index/downBtn.gif" alt="点击下载"/></a>-->
+				 </div>
+			</div>
+			
+			
+			<div class="clearFloat"></div>
+			
+			
+			<!--通知公告-->
+			<div class="indexNotice">
+			   <div class="noticeTip"><span>通知公告</span><a href="noticePublish.html"><img src="../res/images/index/big.gif"/></a></div>
+			   <div class="noticeContent">
+			    <ul>
+				    <li>
+					   <a href="javascript:void(0);">电子科技大学模拟实验室正式建立，欢迎广大师生积极为参与实
+					   验项目电子科技大学模拟实验室正式建立，欢迎广大师生积极为参与实验项目......</a>
+					</li>
+					<li>
+					  <a href="javascript:void(0);">电子科技大学模拟实验室正式建立，欢迎广大师生积极为参与实
+					  验项目电子科技大学模拟实验室正式建立，欢迎广大师生积极为参与实验项目......</a>
+					</li>
+				</ul>
+			   </div>
+			   
+			</div>
+			
+			
+			<!--关于我们-->
+			<div class="aboutArea">
+			  <div class="aboutUs"><span>关于我们</span> <a href="aboutUs.html"><img src="../res/images/index/big.gif"/></a></div>
+			  <div class="aboutContent">
+			     电子科技大学模拟实验室正式建立，欢迎广大师生积极为参与实验项目，
+				 电子科技大学模拟实验室正式建立，欢迎广大师生积极为参与实验项目，
+				 电子科技大学模拟实验室正式建立，欢迎广大师生积极为参与实验项...
+			  </div>
+			</div>
+	     </div>
+	 </div>
+	 
+	 
+	 <!--页尾-->
+	 <div class="line"></div>
+
+	 <div class="footer">
+	     <div class="footer_row1">Copyright&nbsp;@2014&nbsp;DZ88.com&nbsp;电子科技大学&nbsp;版权所有</div>
+		 <div class="footer_row2">备案号：22343456号</div>
+	 </div>	
+     
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

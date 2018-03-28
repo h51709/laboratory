@@ -1,0 +1,229 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" Content="text/html; Charset=utf-8">
+  
+  <title>通知公告详情</title>
+  
+  <link rel="stylesheet" type="text/css" href="../res/css/header.css" />
+  <link rel="stylesheet" type="text/css" href="../res/css/footer.css" />
+  <link rel="stylesheet" type="text/css" href="../res/css/common.css" />
+  <link rel="stylesheet" type="text/css" href="../res/css/index.css" />
+  <link rel="stylesheet" type="text/css" href="../res/css/banner.css" />
+  <link rel="stylesheet" type="text/css" href="../res/css/radius/css_base.css" />
+  <link rel="stylesheet" type="text/css" href="../res/css/aboutUs.css" />
+  <link rel="stylesheet" type="text/css" href="../res/css/exerciseProInfo.css" />
+  <link rel="stylesheet" type="text/css" href="../res/css/noticePublish.css" />
+  
+  <script type="text/javascript" src="../res/js/jquery-1.7.1.js"></script>
+  <script type="text/javascript" src="../res/js/jquery.SuperSlide.2.1.1.js"></script>
+  <script>
+      $(document).ready(
+	    function(){
+		
+		 $("#index a").click( function(){
+            $("#index").css("background-color" , "#003478");  $("#index a").css("color" , "white");
+			$("#pro").css("background-color" , "");  $("#pro a").css("color" , "#184785");
+			$("#new").css("background-color" , "");  $("#new a").css("color" , "#184785");
+			$("#down").css("background-color" , "");  $("#down a").css("color" , "#184785");
+			$("#notice").css("background-color" , "");  $("#notice a").css("color" , "#184785");
+         });
+		
+		 $("#pro a").click( function(){
+		    $("#pro").css("background-color" , "#003478");  $("#pro a").css("color" , "white");
+			$("#index").css("background-color" , "");  $("#index a").css("color" , "#184785");
+			$("#new").css("background-color" , "");  $("#new a").css("color" , "#184785");
+			$("#down").css("background-color" , "");  $("#down a").css("color" , "#184785");
+			$("#notice").css("background-color" , "");  $("#notice a").css("color" , "#184785");
+		 });
+		 
+		 $("#new a").click( function(){
+		    $("#new").css("background-color" , "#003478");  $("#new a").css("color" , "white");
+			$("#pro").css("background-color" , "");  $("#pro a").css("color" , "#184785");
+			$("#index").css("background-color" , "");  $("#index a").css("color" , "#184785");
+			$("#down").css("background-color" , "");  $("#down a").css("color" , "#184785");
+			$("#notice").css("background-color" , "");  $("#notice a").css("color" , "#184785");
+		 });
+		 
+		 $("#down a").click( function(){
+		    $("#down").css("background-color" , "#003478");  $("#down a").css("color" , "white");
+			$("#pro").css("background-color" , "");  $("#pro a").css("color" , "#184785");
+			$("#new").css("background-color" , "");  $("#new a").css("color" , "#184785");
+			$("#index").css("background-color" , "");  $("#index a").css("color" , "#184785");
+			$("#notice").css("background-color" , "");  $("#notice a").css("color" , "#184785");
+         });
+		 
+		 $("#notice a").click( function(){
+		    $("#notice").css("background-color" , "#003478"); $("#notice a").css("color" , "white");
+			$("#pro").css("background-color" , "");  $("#pro a").css("color" , "#184785");
+			$("#new").css("background-color" , "");  $("#new a").css("color" , "#184785");
+			$("#down").css("background-color" , "");  $("#down a").css("color" , "#184785");
+			$("#index").css("background-color" , "");  $("#index a").css("color" , "#184785");
+		 });
+		 
+		 $(".proInfoPage a").click( function(){
+		    $(this).css("background-color" , "#e1e1e1");
+			
+		 });
+	  });
+  </script>
+</head>
+
+<body>
+
+
+     <!--页头-->
+	 <div class="header">
+	   <div class="headerTop">
+	       <div class="logReg"><a href="javascript:void(0);">登录</a> | <a href="javascript:void(0);">注册</a></div>
+	       <div class="header_logo_tit">
+	            <div class="logo"><a href="javascript:void(0);"><img src="../res/images/logo.PNG" /></a></div>
+	       </div>
+		</div>
+		
+	    <div class="headerBottom"> 
+		    <ul>
+			   <li class="liwid" name="index" id="index"><a href="index.html">首页</a></li> 
+			        <li><img src="../res/images/index/line.gif" /></li>
+					
+			   <li class="liwid" name="pro" id="pro"><a href="exerciseProInfo.html">实验项目信息</a></li> 
+			       <li><img src="../res/images/index/line.gif" /></li>
+				   
+			   <li class="liwid" name="new" id="new"><a href="newPublish.html">新闻动态</a></li> 
+			       <li><img src="../res/images/index/line.gif" /></li>
+				   
+			   <li class="liwid" name="down" id="down"><a href="downClient.html">下载</a></li> 
+			       <li><img src="../res/images/index/line.gif" /></li>
+				   
+			   <li class="liwid" name="notice" id="notice"><a href="noticePublish.html">通知公告</a></li> 
+			       <li><img src="../res/images/index/line.gif" /></li>
+			</ul>
+			
+			<input id="sear" type="text" value="搜索" class="lay-radius-6" onclick="$('#sear').attr('value','');" />
+			
+		</div>
+	  
+	 </div>
+	 
+	 
+	 <!--中间板块-->
+	 <div class="indexCenter">
+	  <!---->
+	  <div class="aboutUsNav"><a href="javascript:void(0);">首页</a> > <a href="javascript:void(0);">通知公告</a> > <a href="#">活动通知:2014"校友杯"辩论赛名校邀请赛校队队员报名选拔</a></div>
+	  
+	  
+	  <!--Context Area-->
+	  <!--最新公告-->
+	  <div class="noticePublicLeft">
+	     <div class="noticeLeftIndex"><span>最新公告</span><a href="#"><img src="../res/images/index/notice.gif"></a></div>
+		 <div class="noticeItem"><a href="#">辩论活动是我校传统......</a><span>2014-09-06</span></div>
+	     <div class="noticeItem"><a href="#">辩论活动是我校传统......</a><span>2014-09-06</span></div>
+		 <div class="noticeItem"><a href="#">辩论活动是我校传统......</a><span>2014-09-06</span></div>
+	     <div class="noticeItem"><a href="#">辩论活动是我校传统......</a><span>2014-09-06</span></div>
+		 <div class="noticeItem"><a href="#">辩论活动是我校传统......</a><span>2014-09-06</span></div>
+	     <div class="noticeItem"><a href="#">辩论活动是我校传统......</a><span>2014-09-06</span></div>
+		 <div class="noticeItem"><a href="#">辩论活动是我校传统......</a><span>2014-09-06</span></div>
+	     <div class="noticeItem"><a href="#">辩论活动是我校传统......</a><span>2014-09-06</span></div>
+	  </div>
+	  
+	  
+	  <!--Detail Context-->
+	  <div class="noticePublicRight">
+	     <h2>活动通知：2014“校友杯”辩论赛名校邀请赛校队队员报名选拔</h2>
+		 <div class="noticeDetailTime">时间：2014-08-01</div>
+         <div class="noticeDetailContent">
+各位同学：
+　　<p>辩论活动是我校传统的文化品牌，历时二十多载，已成为电子科技大学的校园文化标志性活动之一，因其赛事参与面广、活动影响大、辩论水
+平高，一直受到全校学生的高度关注和普遍欢迎。我校学子曾经捧得国际大专辩论赛冠军和全国大专辩论赛冠军等多个高水平奖项，辩论赛成为我
+校学子展现思辨风采的舞台，孕育出了一批高素质人才，成为我校文化传承的重要平台。</p>
+一、活动简介
+　　<p>为进一步繁荣校园辩论文化，促进校际间青年学子们的思想沟通和文化交流，增强当代大学生思辨意识和创新思维，传播中华文化和文明，电
+子科技大学将于2014年9月学校58周年校庆纪念周期间举行“名校辩论邀请赛”。届时来自全国知名高校（复旦大学、武汉大学、西安交通大学）的
+辩论队伍，将与我校辩论队舌战辩坛，共掀辩论风云，齐展辩论魅力，为全校师生呈现精彩而激烈的辩论盛宴。</p>
+　　为备战本次名校邀请赛，学校特举办“名校辩论邀请赛”电子科技大学校内选拔活动暨暑期“辩论训练营”。辩论训练营计划为期10天（8月19
+至8月28日），招收40名学员，实行半封闭式训练。学校将邀请祝小宁等知名辩论专家指导参与训练，全面提高参训学员水平，通过系列训练和比赛，
+选拔参赛队员。
+　 <p>现面向全校学生选拔，诚挚邀请热爱辩论、具有思辨力以及论辩风采的同学报名参与。请各学院认真组织，积极做好推荐工作。</p>
+二、选拔对象和方式
+　　<p>电子科技大学热爱辩论活动，综合素质高，具有较强纪律性、责任心和集体荣誉感的全日制在校本科生及研究生。通过自愿报名学院推荐，选
+拔40名学员参加集训，通过10天集训最后选拔出邀请赛参赛队员15人。</p>
+三、训练营相关安排<br/>
+　　1、强大的指导阵容
+　　<p>本次集训分导师团队、教学团队和管理团队。导师团队由我校原校辩论队总教练祝小宁担纲，特聘原校辩冠军队助理教练、知名辩手李巍、李
+嘉明、欧阳晗黎等担任；教学团队由成都电视台著名主持人张毅、川大和我校教授担任。管理团队由国家大学生文化素质教育基地负责。</p>
+　　2、丰富的训练内容
+　　<p>本次训练营的设计将注重学生的全面参与和积极互动，内容丰富形式多样，包括“主题讲座、专题培训课程、读书分享会、模拟比赛、素质拓
+展”等环节，将从形体气质、发声技巧、思维逻辑、知识结构、语言能力、比赛经验等方面进行全方位的培训。10天高强度的集训将对学生的思辨
+力和论辩风采有全面的提升。</p>
+　　3、严格的训练管理
+　　<p>训练营实行半封闭式训练，不集中住宿，集中训练，严格按照训练计划进行考勤和考核；集中上课，分组训练，每组设专任教练，每项设专任
+管理老师。参训学员严格遵守集训相关的管理规定，认真参加集训，无故缺席1次取消集训资格；</p>
+　　4、公正的选拔制度
+　　<p>由教练团队按照集训项目中学生的基本素质和表现、比赛的需要，综合考核完成选拔，最终选拔出12-15名学员，组队进入下阶段备战名校邀请
+赛阶段。</p>
+         </div>
+		  
+	     
+	  
+	 </div>
+	  </div>
+	  
+
+	     
+	 
+	 
+	 
+	 
+	 <!--页尾-->
+	 <div class="line"></div>
+
+	 <div class="footer">
+	     <div class="footer_row1">Copyright&nbsp;@2014&nbsp;DZ88.com&nbsp;电子科技大学&nbsp;版权所有</div>
+		 <div class="footer_row2">备案号：22343456号</div>
+	 </div>	
+     
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

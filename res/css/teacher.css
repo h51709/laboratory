@@ -1,0 +1,36 @@
+.page .tab{padding-left: 10px;padding-right:10px;}
+.page .tab ul{line-height: 40px;list-style: none;}
+.page .tab ul li div{float: left;}
+.page .tab .name{width: 450px;white-space:nowrap; text-overflow:ellipsis; overflow: hidden;}
+.page .tab .show{width: 40px;color: #003478;}
+.page .tab .operation{height: 30px;border: 1px solid #d6d6d6;border-radius: 2px;margin-top: 5px;line-height: 30px;padding-left: 10px;padding-right: 10px;background-color: #f7f7f7;color: #003478;}
+.page .tab .operation a{color: #003478;}
+.access .tab table{border:1px solid #c6c6c6;}
+.page .tab .til{font-weight: bold;border-bottom: 1px solid #c6c6c6;box-shadow: 0px 1px 1px 1px #000;}
+.page .tab .accNo{width: 100px;white-space:nowrap; text-overflow:ellipsis; overflow: hidden;}
+.page .tab .accName{width: 350px;}
+.classList .tab .name{width:500px;}
+
+.clspro .tab .accNo{width: 350px;}
+.clspro .tab .accName{width: 100px;}
+.clspro .tab table{border:1px solid #c6c6c6;}
+
+.apc .btn .protype{display: block;margin-right: 10px;}
+.apc .btn .protype select{width:150px;height: 30px; }
+.apc .btn .chk{width: 50px;}
+.page .title{width: 100%;height: 50px;line-height: 50px;font-weight: bold;border-bottom: 1px dashed #d2d2d2;}
+.page .tab table{text-align: center;width: 100%;line-height: 35px;}
+.page .tab{margin-top: 20px;}
+.page .tab .cname{width: 20%;}
+.page .tab .cnum{width: 20%;}
+.page .tab .ctype{width: 15%;}
+.page .tab .cteacher{width: 15%;}
+.page .tab .cstu{width: 15%;}
+.apc ._btn{margin-right:10px;}
+.chioManage .tab select{width: 200px;height: 30px;}
+.chioManage .tab table{line-height: 40px;text-align: left;border:none;}
+.chioManage .tab table td{border:none;}
+.chioManage .tab .stu_no{width: 800px;height: 500px;margin-bottom: 20px;}
+.course .tab table{border:1px solid #c6c6c6;}
+.time .s table{border:1px solid #c6c6c6;}
+.time .s table td{border:1px solid #c6c6c6;}

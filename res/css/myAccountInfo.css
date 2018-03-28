@@ -1,0 +1,11 @@
+.welTeac{margin:0 auto;width:1002px;height:28px;border:1px solid #e7e7e7;line-height:28px;padding-left:8px;font-family:ËÎÌå;font-size:14px;}
+.personInfo{margin:0px auto;width:1002px;}
+.personInfoTit{height:62px;border-bottom:1px dashed gray;line-height:85px;}
+.infotit{text-align:right;font-family:ËÎÌå;font-size:14px;color:#003478;}
+td span{font-family:Î¢ÈíÑÅºÚ;font-size:14px;}
+.update a{color:#0eabdb;font-family:ËÎÌå;font-size:12px;}
+.infoInput input{font-family:ËÎÌå;font-size:12px;width:160px;height:27px;line-height:27px;padding-left:4px;border:1px solid #e1e3e6;}
+.myAccountInfoTab  td{padding:6px;}
+.subPerInfo {width:111px;height:33px;border:1px solid #0c4566; background:#21579d;color:white;font-family:Î¢ÈíÑÅºÚ;font-size:18px;
+line-height:28px;text-align:center;letter-spacing:8px;margin-left:75px;margin-top:px;margin-top:13px;}
+body{ background:url("../images/myAccountInfo/sc.GIF") no-repeat -35px 270px; }

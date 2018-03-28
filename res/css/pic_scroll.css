@@ -1,0 +1,38 @@
+.header_top_left a{color:#fff;}
+ 
+/* css ÷ÿ÷√ */
+*{margin:0; padding:0; list-style:none; }
+body{ background:#fff; font:normal 12px/22px ÀŒÃÂ;  }
+img{ border:0;  }
+a{ text-decoration:none; color:#333;  }
+
+/* Õº∆¨¬÷≤•css */
+.slideBox{ width:227px; height:500px; overflow:hidden; position:relative; border:1px solid #ddd;z-index:-1;  }
+.slideBox .hd{ height:15px; overflow:hidden; position:absolute; right:5px; bottom:5px; z-index:1; }
+.slideBox .hd ul{ overflow:hidden; zoom:1; float:left;  }
+.slideBox .hd ul li{ float:left; margin-right:2px;  width:15px; height:15px; line-height:14px; text-align:center; background:#fff; cursor:pointer; }
+.slideBox .hd ul li.on{ background:#f00; color:#fff; }
+.slideBox .bd{ position:relative; height:100%; z-index:0;   }
+.slideBox .bd li{ zoom:1; vertical-align:middle; }
+.slideBox .bd img{ width:227px; height:500px; display:block;  }
+		
+.slideBox1{ width:757px; height:300px; overflow:hidden; position:relative; border:1px solid #ddd;float:right;z-index:0;filter:alpha(Opacity=40); opacity: 0.4;}
+.slideBox1 .hd{ height:15px; overflow:hidden; position:absolute; right:5px; bottom:5px; z-index:1; }
+.slideBox1 .hd ul{ overflow:hidden; zoom:1; float:left;  }
+.slideBox1 .hd ul li{ float:left; margin-right:2px;  width:15px; height:15px; line-height:14px; text-align:center; background:#fff; cursor:pointer; }
+.slideBox1 .hd ul li.on{ background:#f00; color:#fff; }
+.slideBox1 .bd{ position:relative; height:100%; z-index:0;   }
+.slideBox1 .bd li{ zoom:1; vertical-align:middle; }
+.slideBox1 .bd img{ width:750px; height:300px; display:block;  }
+
+
+
+
+.slideBox2{ width:290px; height:160px; overflow:hidden; position:relative; border:1px solid #ddd;float:right;z-index:0;filter:alpha(Opacity=40); opacity: 0.4;}
+.slideBox2 .hd{ height:15px; overflow:hidden; position:absolute; right:5px; bottom:5px; z-index:1; }
+.slideBox2 .hd ul{ overflow:hidden; zoom:1; float:left;  }
+.slideBox2 .hd ul li{ float:left; margin-right:2px;  width:15px; height:15px; line-height:14px; text-align:center; background:#fff; cursor:pointer; }
+.slideBox2 .hd ul li.on{ background:#f00; color:#fff; }
+.slideBox2 .bd{ position:relative; height:100%; z-index:0;   }
+.slideBox2 .bd li{ zoom:1; vertical-align:middle; }
+.slideBox2 .bd img{ width:290; height:160; display:block;  }

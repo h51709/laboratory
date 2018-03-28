@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <title>校内注册</title>
+  <meta http-equiv="Content-Type" Content="text/html; Charset=utf-8">
+  
+  <link rel="stylesheet" type="text/css" href="../res/css/login.css" />
+  <link rel="stylesheet" type="text/css" href="../res/css/common.css" />
+  <link rel="stylesheet" type="text/css" href="../res/css/regist.css" />
+  <link rel="stylesheet" type="text/css" href="../res/css/footer.css" />
+</head>
+
+<body>
+
+     <!--页头-->
+	 <div class="header_brose">
+	   <div class="header_con">
+	        <div class="logo"><a href="javascript:void(0);"><img src="../res/images/logo.PNG" /></a></div>
+	  </div>
+	 </div>
+	 
+	 <!--Logo-->
+	 <div class="tab_con">
+	      <div class="reg_tab">
+	           <div class="reg_tab_wel_message">
+			      <div class="regAccount">注册账号</div>
+			      <div class="reg_tab_wel">
+				  <span>欢迎注册电子科技大学网络与信息安全虚拟仿真实验教学中心。如果你已拥有账号，则可</span>
+				  <a href="../Login/TeacherLogin.html" style="text-decoration:underline;color:#003478;">在此登录</a></div>
+			   </div>
+               <table class="registTab">
+			        <tr>
+					   <td></td>
+					   <td class="inner">
+					      <input type="radio" name="classOfStudent" value="InnerStu" checked="checked"/>校内学生
+					   </td>
+					   <td class="out">
+						   <input type="radio" name="classOfStudent" value="OutStu"/>校外学生
+					   </td>
+					   <td></td>
+					</tr>
+					
+					
+					<tr class="reg_row">
+					    <td class="rightAlign"><span>*</span>院校名称</td>
+						<td colspan="2"><input type="text" name="UniversityName" id="UniversityName" value="电子科技大学"/></td>	
+						<td></td>
+					</tr>
+					
+					
+					<tr class="reg_row">
+					    <td class="rightAlign"><span>*</span>学号</td>
+					    <td colspan="2"><input type="text" name="StuNumber" id="StuNumber" /></td>
+						<td></td>
+					</tr>
+					
+					
+					<tr class="reg_row">
+					    <td class="rightAlign"><span>*</span>身份证号</td>
+						<td colspan="2"><input type="text" name="IDCardNumber" id="IDCardNumber" /></td>
+						<td></td>
+					</tr>
+					
+					
+					<tr class="reg_row">
+					    <td class="rightAlign"><span>*</span>联系电话</td>
+						<td colspan="2"><input type="text" name="phone" id="phone" /></td>
+						<td></td>
+					</tr>
+					
+					
+					<tr class="reg_row">
+					   <td class="rightAlign"><span>*</span>邮箱地址</td>
+					   <td colspan="2"><input type="text" name="email" id="email" /></td>
+					   <td class="passTip">密码长度8-16位，数字、字母、字符至少包含两种</td>
+					</tr>
+					
+					
+					<tr class="reg_row">
+					    <td class="rightAlign"><span>*</span>设置密码</td>
+						<td colspan="2"><input type="password" name="setPass" id="setPass" /></td>
+						<td></td>
+					</tr>
+					
+					
+					<tr class="reg_row">
+					    <td class="rightAlign"><span>*</span>确认密码</td>
+						<td colspan="2"><input type="password" name="okPass" id="okPass" /></td>
+						<td></td>
+					</tr>
+					
+					
+					<tr class="reg_row">
+					    <td class="rightAlign"><span>*</span>验证码</td>
+						<td class="validate_input"><input type="text" name="validateVal" id="validateVal" /></td>
+						<td onclick="alert('存放验证码');"><div class="validateImg">点击这里，刷新验证码</div></td>
+						<td class="refreshTip">点击图片刷新验证码</td>
+					</tr>
+					
+					
+					<tr>
+					   <td></td>
+					   <td colspan="2"><input class="reg-btn" type="submit" value="立即注册" onclick=""/> </td>
+					   <td></td>
+					</tr>
+					
+					
+			   </table>
+	      </div>
+	 </div>
+	 
+	 <div class="line"></div>
+
+	 <div class="footer">
+	     <div class="footer_row1">Copyright&nbsp;@2014&nbsp;DZ88.com&nbsp;电子科技大学&nbsp;版权所有</div>
+		 <div class="footer_row2">备案号：22343456号</div>
+	 </div>
+	 
+</body>
+</html>

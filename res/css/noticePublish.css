@@ -1,0 +1,20 @@
+.noticePublicLeft{width:210px;float:left;overflow:hidden;font-family:宋体;font-size:12px;}
+
+.noticePublicRight{width:780px;float:right;overflow:hidden;border-left:1px solid #dddddd;}
+.noticePublishWordsArea{border-bottom:1px dashed #919191;padding-bottom:18px;margin-bottom:50px;}
+.noticePublishWordsArea h2{font-family:宋体;font-size:14px;margin-bottom:18px;padding-left:11px;}
+.noticePublishWordsArea p{font-family:宋体;font-size:12px;text-indent:3em;padding-left:11px;}
+.noticePublishWordsArea p a{color:#003478;}
+.noticePubTime{text-align:right;padding-right:30px;margin-top:32px;font-family:宋体;font-size:12px;}
+.noticeLeftIndex{overflow:hidden;}
+.noticeLeftIndex span{display:block;float:left;font-family:宋体;font-size:16px;color:#003478;}
+.noticeLeftIndex a{display:block;float:right;}
+
+.noticeItem{overflow:hidden;border-bottom:1px solid #d6d7d8;height:38px;line-height:38px;}
+.noticeItem a{display:block;float:left;color:#5c5e5e;}
+.noticeLeftIndex{border-bottom:2px solid #d3d4d5;padding-bottom:6px;}
+.noticeItem span{display:block;float:right;overflow:hidden;}
+
+.noticePublicRight h2{font-family:宋体;font-size:14px;text-align:center;}
+.noticePublicRight  .noticeDetailTime{font-family:宋体;font-size:12px;text-align:right;padding-right:85px;margin-top:20px;}
+.noticePublicRight .noticeDetailContent{font-family:宋体;font-size:12px;padding-left:20px;margin-top:33px;line-height:27px;}

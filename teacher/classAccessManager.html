@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>已选课程</title>
+	<link rel="stylesheet" type="text/css" href="../res/css/header.css" />
+	<link rel="stylesheet" type="text/css" href="../res/css/footer.css" />
+	<link rel="stylesheet" type="text/css" href="../res/css/student.css">
+	<link rel="stylesheet" type="text/css" href="../res/css/teacher.css">
+	<link rel="stylesheet" type="text/css" href="../res/css/base.css">
+	<script type="text/javascript" src="../res/js/jquery-1.7.1.js"></script>
+	<script type="text/javascript" src="../res/js/jquery.SuperSlide.2.1.1.js"></script>
+	<script type="text/javascript" src="../res/js/teacher.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$(".tab").delegate(".del","click",function(){
+				if(window.confirm("确定删除此附件???")){
+					$(this).parents("tr").remove();
+				}
+			});
+			$(".mask").hide();
+			/*$(".upload").click(function(){
+				$(".mask").show();
+			});*/
+		});
+	</script>
+</head>
+
+<body>
+	<div class="page classInfo access">
+		<div class="title">|课程1附件管理</div>
+		<div class="btn">
+			<span class="_btn upload">上传新附件</span>
+		</div>
+		<div class="tab">
+			<table rules="none">
+				<tr class="til">
+					<td class="accNo">附件序号</td>
+					<td class="accName">附件名</td>
+					<td class="accType">附件类型</td>
+					<td>操作</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>附件1</td>
+					<td>pdf</td>
+					<td><a href="javascript:void(0);" class="del">删除</a></td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>附件1</td>
+					<td>pdf</td>
+					<td><a href="javascript:void(0);" class="del">删除</a></td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>附件1</td>
+					<td>pdf</td>
+					<td><a href="javascript:void(0);" class="del">删除</a></td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>附件1</td>
+					<td>pdf</td>
+					<td><a href="javascript:void(0);" class="del">删除</a></td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>附件1</td>
+					<td>pdf</td>
+					<td><a href="javascript:void(0);" class="del">删除</a></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div class="mask">
+		<div class="mk"></div>
+		<div class="info">
+			<div class="title">上传附件</div>
+			<div class="ma">
+				<div class="file">附件:<input type="file" placeholder="请选择附件" /></div>
+			</div>
+			<div class="con_btn">
+				<span class="_btn s">上传</span>
+				<span class="_btn c">取消</span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

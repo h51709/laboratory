@@ -1,0 +1,42 @@
+.header_brose{width:100%;height:125px; 
+	                  background:#f0f0f0;  /*±³¾°É«³õÊ¼»¯*/
+	                  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fefefe), to(#f0f0f0));    /* Webkit: Safari 4-5, Chrome 1-9 */
+                      background: -webkit-linear-gradient(top, #fefefe, #f0f0f0);   /* Webkit: Safari 5.1+, Chrome 10+ */
+                      background: -moz-linear-gradient(top, #fefefe, #f0f0f0);   /* Firefox 3.6+ */
+                      background: -o-linear-gradient(top, #fefefe, #f0f0f0);   /* Opera 11.10+ */
+                      background: -ms-linear-gradient(top, #fefefe, #f0f0f0);   /* IE 10 */
+                      FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#fefefe, endColorStr=#f0f0f0);   /* IE < 10 */
+	}
+	
+.header_con{width:1002px;margin:0 auto;padding-top:58px;font-family:Î¢ÈíÑÅºÚ;font-size:30px;color:#003478;overflow:hidden;}
+.header_con div{float:left;}
+.logo{margin-right:18px;}
+
+
+.tab_con{width:1002px;margin:0 auto;margin-top:72px;}
+.tab{width:807px;min-height:381px;border:1px solid #e3e2e2;margin:0 auto;}
+.tab_wel_message{font-family:Î¢ÈíÑÅºÚ;font-size:24px;color:#003478;padding-left:32px;border-bottom:1px dashed #e3e2e2;height:63px;line-height:63px;}
+.roles{margin-left:140px;font-size:14px;font-family:Î¢ÈíÑÅºÚ;}
+.roles  span{margin-right:38px;}
+.tab_info{margin-left:80px;text-align:center;}
+.tab_info span{font-size:14px;font-family:Î¢ÈíÑÅºÚ;margin-right:24px;}
+.tab_info a{color:font-size:12px;font-family:ËÎÌå;color:#8d9193;}
+.row1{margin-top:40px;}
+.row2{margin-top:31px;}
+.userName{width:268px;height:37px;font-family:ËÎÌå;font-size:14px;color:#8f9091;padding-left:6px;line-height:37px;}
+.password{width:268px;height:37px;padding-left:6px;}
+.btn_width {width:275px; height:37px;background-color:#20569c;cursor:hand;border:1px solid #0c4566;font-size:18px;font-family:Î¢ÈíÑÅºÚ;color:#ffffff;
+}
+
+.loginTab  tr td{padding:12px;}
+ 
+ 
+.freeReg{text-align:right;}
+.freeReg a{color:#003478;font-size:12px;font-family:ËÎÌå;}
+.rigAli{text-align:right;font-family:ËÎÌå;font-size:14px;}
+
+.forgetPass{text-align:left;}
+.forgetPass a{font-family:ËÎÌå;font-size:12px;}
+
+
+

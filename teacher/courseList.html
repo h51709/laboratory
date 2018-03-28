@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>选课名单</title>
+	<link rel="stylesheet" type="text/css" href="../res/css/header.css" />
+	<link rel="stylesheet" type="text/css" href="../res/css/footer.css" />
+	<link rel="stylesheet" type="text/css" href="../res/css/teacher.css">
+	<link rel="stylesheet" type="text/css" href="../res/css/base.css">
+	<script type="text/javascript" src="../res/js/jquery-1.7.1.js"></script>
+	<script type="text/javascript" src="../res/js/jquery.SuperSlide.2.1.1.js"></script>
+	<script type="text/javascript" src="../res/js/teacher.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$(".tab").delegate(".del","click",function(){
+				if(window.confirm("是否删除该学生???")){
+					$(this).parents("tr").remove();
+				}
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<div class="page course">
+		<div class="title">|课程1选课名单查看</div>
+		<div class="btn">
+			<div class="plan">
+				<span class="_btn" onclick="">删除</span>
+			</div>
+		</div>
+		<div class="tab">
+			<table rules="none">
+				<tr class="til">
+					<td class="chk">
+						<input type="checkbox" class="ckb" />
+					</td>
+					<td class="accNo">学生姓名</td>
+					<td class="accName">学号</td>
+					<td class="accType">所在院校</td>
+					<td>操作</td>
+				</tr>
+				<tr>
+					<td class="chk">
+						<input type="checkbox" class="ckb" />
+					</td>
+					<td class="accNo">小王</td>
+					<td class="accName">2013405789</td>
+					<td class="accType">电子科技大学</td>
+					<td><a href="javascript:void(0);" class="del">删除</a></td>
+				</tr>
+				<tr>
+					<td class="chk">
+						<input type="checkbox" class="ckb" />
+					</td>
+					<td class="accNo">小王</td>
+					<td class="accName">2013405789</td>
+					<td class="accType">电子科技大学</td>
+					<td><a href="javascript:void(0);" class="del">删除</a></td>
+				</tr>
+				<tr>
+					<td class="chk">
+						<input type="checkbox" class="ckb" />
+					</td>
+					<td class="accNo">小王</td>
+					<td class="accName">2013405789</td>
+					<td class="accType">电子科技大学</td>
+					<td><a href="javascript:void(0);" class="del">删除</a></td>
+				</tr>
+				<tr>
+					<td class="chk">
+						<input type="checkbox" class="ckb" />
+					</td>
+					<td class="accNo">小王</td>
+					<td class="accName">2013405789</td>
+					<td class="accType">电子科技大学</td>
+					<td><a href="javascript:void(0);" class="del">删除</a></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>

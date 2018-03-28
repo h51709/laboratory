@@ -1,0 +1,139 @@
+/**********弹层样式************/
+.allScreenDiv{width:100%;height:100%;z-index:10;background:#a8a8a8;filter:alpha(Opacity=80); opacity: 0.8;
+    position:absolute;left:0px;top:0px;}
+.showAndOutTable{margin-left:175px;}
+.showAndOutTable td{font-family:宋体;font-size:12px;color:#454647;padding:5px;}
+.inputLen input{width:199px;height:24px;border:1px solid #cbcbcb;padding-left:6px;line-height:24px;}
+.selectLen select{width:209px;height:24px;border:1px solid #cbcbcb;padding-left:6px;line-height:28px;font-family:宋体;font-size:12px;}
+.selectLen option{font-family:宋体;font-size:12px;}
+.showAndOutLayout{width:660px;height:517px;background-color:white;left:350px;top:120px;position:absolute;z-index:100;}
+.showAndOutLayout .addInfo{font-family:宋体;font-size:14px;color:#003478;border-bottom:1px dashed #d2d2d2;height:48px;
+  line-height:50px;padding-left:24px;margin-bottom:60px;}
+  
+.showAndOutManLayout{width:648px;height:326px;background-color:white;left:350px;top:120px;position:absolute;z-index:100;}
+.showAndOutManLayout .addInfo{font-family:宋体;font-size:14px;color:#003478;border-bottom:1px dashed #d2d2d2;height:48px;
+  line-height:50px;padding-left:24px;margin-bottom:60px;}
+ 
+.downAndCalBtn{}
+  
+.ali{text-align:right;}
+.iok{width:62px;height:24px;color:#298bb4;font-family:宋体;font-size:14px;outline:none;margin-right:66px;}
+.ical{width:62px;height:24px;color:#929292;font-family:宋体;font-size:14px;outline:none;}
+.addLen {line-height:10px;}
+.addLen input{width:138px;height:32px;}
+.upAndDownBtn input{width:60px;height:24px;font-weight:bolder;}
+._up{color:#298bb4;}
+._down{color:#929292;}
+.together{height:100%;width:100%;position:fixed;top:0;left:0;}
+
+/**********管理员发布消息************/
+.adminMainContent{margin:0 auto;overflow:hidden;margin-top:25px;}
+.adminLeft{width:130px;overflow:auto;float:left;padding-top:16px;}
+.adminLeft ul li{font-family:宋体;font-size:14px;margin-bottom:10px;margin-left:18px;}
+.adminLeft ul li a{color:#454647;}
+.adminRight{overflow:hidden;}
+.scrollContent{width:830px;margin:0 auto;}
+.publicMessageTitle{font-family:宋体;font-size:14px;padding-left:30px;margin-top:5px;margin-bottom:60px;height:25px;line-h}
+.publicMessageTitle span{color:#003478;}
+
+.titAndContent{font-family:宋体;font-size:12px;padding-left:53px;margin-bottom:37px;overflow:hidden;}
+.titAndContent input{margin-right:40px;width:203px;height:26px;border:1px solid #c9c9c9;}
+.titAndContent select{width:203px;height:26px;font-family:宋体;font-size:12px;border:1px solid #c9c9c9;}
+.titAndContent option{font-family:宋体;font-size:12px;border:1px solid #c9c9c9;}
+.titAndContent textarea{width:680px;height:150px;resize:none;font-family:宋体;font-size:12px;}
+.textareaKey {display:block;float:left;}
+
+.twoBtn{text-align:center;margin-top:47px;}
+
+.okBtn{background:#3c9cc5;margin-right:60px;cursor:pointer;width:87px;height:30px;}
+.callBtn{background:#ffffff;width:87px;height:30px;}
+
+/**********管理员账号管理************/
+.allRole{height:25px;line-height:25px;font-family:宋体;font-size:14px; margin-bottom:20px;margin-top:5px;padding-left:30px;}
+.accountInputText{background:url("../images/index/accoSear.gif") no-repeat 5px 4px;width:128px;height:25px;line-height:25px;
+ padding-left:24px;border:1px solid #cccccc;}
+.adminAccountManagerSearch {text-align:right;padding-bottom:6px;position:relative;padding-right:28px;}
+.adminAccountManagerSearch input{font-family:宋体;font-size:12px;}
+.accountInputSear{color:#2490bd;width:48px;height:27px;font-weight:bolder;border:1px solid #cccccc;margin-left:-10px;outline:none;cursor:pointer;}
+.accountInputAdd{color:#2490bd;width:106px;height:27px;font-weight:bolder; border:1px solid #cccccc;outline:none;cursor:pointer;}
+
+.accountManagerTable{border-collapse:collapse;width:772px;margin:0 auto;margin-left:30px;font-family:宋体;font-size:12px;color:#5b5e60;}
+.accountManagerTable td{border:1px solid gray;text-align:center;padding:2px;}
+.accountManagerTable td a{color:#5b5e60;}
+
+/**********基本信息维护************/
+.titAndContentx{font-family:宋体;font-size:12px;padding-left:53px;margin-bottom:37px;overflow:hidden;}
+.titAndContentx input{margin-right:40px;width:203px;height:26px;border:1px solid #c9c9c9;}
+.titAndContentx select{width:203px;height:26px;font-family:宋体;font-size:12px;border:1px solid #c9c9c9;}
+.titAndContentx option{font-family:宋体;font-size:12px;border:1px solid #c9c9c9;}
+.titAndContentx textarea{width:618px;height:150px;resize:none;font-family:宋体;font-size:12px;}
+.textareaKeyx {display:block;float:left;}
+
+/*开课查询*/
+.courseSearchDIv{margin:0 auto;overflow:hidden;width:800px;height:42px;border-bottom:1px dashed #c3c7c9;line-height:42px;margin-bottom:22px;
+  font-family:宋体;font-size:12px;
+}
+.courseSearchDIv table{float:right;}
+.courseSearchDIv input,.courseSearchDIv select , .courseSearchDIv option{font-family:宋体;font-size:12px;color:#8d9194;}
+
+.courseSearchDIv label{border:px solid #c9c9c9;padding:7px 5px;border-right:0px solid green;color:#42474b;}
+.courseSearchDIv select{width:130px;height:27px;margin-right:25px;color:#8d9194;}
+.laytwo1{position:relative;}
+
+
+
+.inputCourseName{width:130px;height:27px;margin-right:27px;border:1px solid #c9c9c9;padding-left:10px;color:#8d9194; }
+.courseSearchBtn{width:48px;height:27px;}
+.courseSearSubm{width:48px;height:27px;color:#2490bd;cursor:pointer;}
+
+.myCourseList ul li{font-family:宋体;font-size:12px;margin-left:30px;}
+.firstTd{width:340px;color:#444747;}
+.secondTd a{font-family:宋体;font-size:12px;}
+.courseManagerTable tr td{padding:6px;}
+.labelSelect{margin-left:-8px;}
+.coucou{float:left;}
+
+/**/
+.adminRightx{width:861px;height:698px;border:1px solid #d0d0d0;float:right;}
+.richText{overflow:scroll;width:794px;min-height:481px;border:1px solid #d0d0d0;margin-left:33px;}
+.dataSub{text-align:center;margin-top:30px;}
+.dataSub input{width:103px;height:35px;color:#2490bd;}
+.newClient{padding-right:20px;}
+.newClient span{font-family:宋体;font-size:14px;padding-left:38px;}
+.newClient input{float:right;font-size:12px;font-family:宋体;width:112px;height:27px;color:#2490bd;}
+.deleteClient{font-size:宋体;font-size:14px;padding-left:51px;border-top:1px dashed #d0d0d0;margin-top:20px;padding-top:29px; }
+.deleteClient input{font-family:微软雅黑;font-size:14px;color:#2490bd;margin-left:34px;width:60px;height:25px;outline:none;overflow:hidden;}
+.numberPicsTab{width:500px;margin-left:53px;}
+.numberPicsTab tr td{padding:5px;font-family:宋体;font-size:12px;}
+
+.cow2td{position:relative;}
+.numberPicsTab td a{background: url("../images/index/cfile.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);color: #777;
+    cursor: pointer;display: inline-block;height:33px;line-height:33px;overflow: hidden;position: absolute;
+    text-align: left;width: 68px;border:1px solid #cbcbcb;border-left:0px solid white;
+}
+
+.numberPicsTab td a input {display: block;position: absolute;top: 0;left: 0;width: 75px;
+   height:33px;cursor: pointer;opacity: 0;filter:alpha(opacity: 0);
+}
+	
+.inlen{width:266px;height:33px;padding-left:6px;line-height:33px;border:1px solid #cbcbcb;}
+.picName{text-align:right;}
+.lastInput{float:right;margin-right:55px;width:105px;height:27px;text-align:center;font-family:宋体;font-size:12px;
+border:1px solid #d0d0d0;color:#11adee;cursor:pointer;}
+.messageList{padding-left:30px;}
+.messageList p{font-family:宋体;font-size:12px;margin:15px 0px;}
+.messageList p a{color:#5c5e5e;}
+.messageList p span{float:right;margin-right:50px;}
+.allChoA{margin-left:15px;width:50px;height:20px;font-family:微软雅黑;font-size:12px;color:#298bb4;letter-spacing:4px;cursor:pointer;}
+
+.coreArea{width:1002px;height:650px;margin:0 auto;overflow:hidden;}
+.limitArea{width:647px;height:521px;border:1px solid #e3e2e2;margin-top:82px;margin-left:98px;}
+.limitArea table{margin-left:60px;}
+.limitArea table td{padding:25px 0px;}
+.getPassTips{font-family:微软雅黑;font-size:24px;color:#003478;padding-left:35px;height:63px;line-height:63px;border-bottom:1px dashed #e3e2e2;}
+.coreArea form div{font-family:宋体;font-size:14px;margin-top:78px;}  
+.coreArea form div span{margin-left:122px;}
+.getPassText{width:269px;height:37px;}
+.getPassBtn{width:100px;height:37px;font-family:微软雅黑;font-size:18px;color:#003478;letter-spacing:3px;}
+.passAli{text-align:right;font-family:宋体;font-size:14px;}
+.success{color:#003478;font-family:微软雅黑;font-size:18px;margin-top:72px;text-align:center;}

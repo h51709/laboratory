@@ -1,0 +1,214 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" Content="text/html; Charset=utf-8">
+  
+  <title>关于我们</title>
+  
+  <link rel="stylesheet" type="text/css" href="../res/css/header.css" />
+  <link rel="stylesheet" type="text/css" href="../res/css/footer.css" />
+  <link rel="stylesheet" type="text/css" href="../res/css/common.css" />
+  <link rel="stylesheet" type="text/css" href="../res/css/index.css" />
+  <link rel="stylesheet" type="text/css" href="../res/css/banner.css" />
+  <link rel="stylesheet" type="text/css" href="../res/css/radius/css_base.css" />
+  <link rel="stylesheet" type="text/css" href="../res/css/aboutUs.css" />
+  
+  <script type="text/javascript" src="../res/js/jquery-1.7.1.js"></script>
+  <script type="text/javascript" src="../res/js/jquery.SuperSlide.2.1.1.js"></script>
+  <script>
+      $(document).ready(
+	    function(){
+		
+		 $("#index a").click( function(){
+            $("#index").css("background-color" , "#003478");  $("#index a").css("color" , "white");
+			$("#pro").css("background-color" , "");  $("#pro a").css("color" , "#184785");
+			$("#new").css("background-color" , "");  $("#new a").css("color" , "#184785");
+			$("#down").css("background-color" , "");  $("#down a").css("color" , "#184785");
+			$("#notice").css("background-color" , "");  $("#notice a").css("color" , "#184785");
+         });
+		
+		 $("#pro a").click( function(){
+		    $("#pro").css("background-color" , "#003478");  $("#pro a").css("color" , "white");
+			$("#index").css("background-color" , "");  $("#index a").css("color" , "#184785");
+			$("#new").css("background-color" , "");  $("#new a").css("color" , "#184785");
+			$("#down").css("background-color" , "");  $("#down a").css("color" , "#184785");
+			$("#notice").css("background-color" , "");  $("#notice a").css("color" , "#184785");
+		 });
+		 
+		 $("#new a").click( function(){
+		    $("#new").css("background-color" , "#003478");  $("#new a").css("color" , "white");
+			$("#pro").css("background-color" , "");  $("#pro a").css("color" , "#184785");
+			$("#index").css("background-color" , "");  $("#index a").css("color" , "#184785");
+			$("#down").css("background-color" , "");  $("#down a").css("color" , "#184785");
+			$("#notice").css("background-color" , "");  $("#notice a").css("color" , "#184785");
+		 });
+		 
+		 $("#down a").click( function(){
+		    $("#down").css("background-color" , "#003478");  $("#down a").css("color" , "white");
+			$("#pro").css("background-color" , "");  $("#pro a").css("color" , "#184785");
+			$("#new").css("background-color" , "");  $("#new a").css("color" , "#184785");
+			$("#index").css("background-color" , "");  $("#index a").css("color" , "#184785");
+			$("#notice").css("background-color" , "");  $("#notice a").css("color" , "#184785");
+         });
+		 
+		 $("#notice a").click( function(){
+		    $("#notice").css("background-color" , "#003478"); $("#notice a").css("color" , "white");
+			$("#pro").css("background-color" , "");  $("#pro a").css("color" , "#184785");
+			$("#new").css("background-color" , "");  $("#new a").css("color" , "#184785");
+			$("#down").css("background-color" , "");  $("#down a").css("color" , "#184785");
+			$("#index").css("background-color" , "");  $("#index a").css("color" , "#184785");
+		 });
+	  });
+  </script>
+</head>
+
+<body>
+
+
+     <!--页头-->
+	 <div class="header">
+	   <div class="headerTop">
+	       <div class="logReg"><a href="javascript:void(0);">登录</a> | <a href="javascript:void(0);">注册</a></div>
+	       <div class="header_logo_tit">
+	            <div class="logo"><a href="javascript:void(0);"><img src="../res/images/logo.PNG" /></a></div>
+	       </div>
+		</div>
+		
+	    <div class="headerBottom"> 
+		    <ul>
+			   <li class="liwid" name="index" id="index"><a href="index.html">首页</a></li> 
+			        <li><img src="../res/images/index/line.gif" /></li>
+					
+			   <li class="liwid" name="pro" id="pro"><a href="exerciseProInfo.html">实验项目信息</a></li> 
+			       <li><img src="../res/images/index/line.gif" /></li>
+				   
+			   <li class="liwid" name="new" id="new"><a href="newPublish.html">新闻动态</a></li> 
+			       <li><img src="../res/images/index/line.gif" /></li>
+				   
+			   <li class="liwid" name="down" id="down"><a href="downClient.html">下载</a></li> 
+			       <li><img src="../res/images/index/line.gif" /></li>
+				   
+			   <li class="liwid" name="notice" id="notice"><a href="noticePublish.html">通知公告</a></li> 
+			       <li><img src="../res/images/index/line.gif" /></li>
+			</ul>
+			
+			<input id="sear" type="text" value="搜索" class="lay-radius-6" onclick="$('#sear').attr('value','');" />
+			
+		</div>
+	  
+	 </div>
+	 
+	 
+	 <!--中间板块-->
+	 <div class="indexCenter">
+	    <!--bannre 轮播图片-->
+        <div class="banner">
+	        <div id="slideBox" class="slideBox">
+		    <!--页码导航，备用
+			<div class="hd">
+				<ul><li>1</li><li>2</li><li>3</li></ul>
+			</div>
+		    -->
+			<div class="bd">
+				<ul>
+					<li><a href="#" ><img src="../res/images/index/ban1.jpg" /></a></li>
+					<li><a href="#" ><img src="../res/images/index/ban1.jpg" /></a></li>
+					<li><a href="#" ><img src="../res/images/index/ban1.jpg" /></a></li>
+				</ul>
+			</div>
+			<a class="prev" href="javascript:void(0)"></a>
+			<a class="next" href="javascript:void(0)"></a>
+		</div>
+		<script type="text/javascript">
+		    $(".slideBox").slide({mainCell:".bd ul",autoPlay:true});
+		</script>
+	  </div>
+	 
+	  <!---->
+	  <div class="aboutUsNav"><a href="javascript:void(0);">首页</a> > <a href="javascript:void(0);">关于我们</a></div>
+	  
+	  
+	  <!--University Introduce-->
+	  <div class="UniIntro">
+	     <img src="../res/images/aboutUs/tech.gif" />
+		 <h2>计算机科学与工程学院网上虚拟实验室</h2> 
+		 
+		  <p>电子科技大学（University of Electronic Science and Technology of China）
+	  简称“电子科大”，位于蓉城成都。是教育部直属的全国重点大学，国家首批“985工程”和“211工程”重点建设大学。电子科技大学
+	  原名成都电讯工程学院，是1956年在周恩来总理的亲自部署下，由交通大学（现上海交通大学、西安交通大学）、南京工学院
+	 （现东南大学）、华南工学院（现华南理工大学）的电子信息类学科合并创建而成。为中国最早的七所重点国防院校之一[1] ，
+	  是一所完整覆盖整个电子类学科，以电子信息科学技术为核心，以工为主，理工渗透，理、工、管、文协调发展的多科性研究
+	  型大学。是中国电子信息领域、邮电领域唯一“985工程”国家重点大学。[2-3]</p>
+	  
+          <p>被江泽民同志誉为“我国电子类院校的排头兵”[4] 。电子科技大学包括从本科生到硕士研究生、博士研究生等多层次、多类
+	  型的人才培养格局，是一所完整覆盖整个电子类学科，以电子信息科学技术为核心，以工为主，理工渗透，理、工、管、文协
+	  调发展的多科性研究型大学，秉承“求实求真、大气大为”的精神。[5] 电子科技大学与西安电子科技大学、北京邮电大学并称
+	  为著名的”两电一邮“，为中国邮电系统学科的最高学府之一。中国电子信息领域、邮电领域唯一“985工程”国家重点大学，科研
+	  经费居电子信息领域、邮电领域全国高校第一。据电子科技大学校园网资料显示，在校各类全日制普通学生33000余人，其中博
+	  士和硕士研究生12000余人。</p>
+	  
+          <p>电子科技大学校园网资料显示，截至2012年底，学校拥有一级学科博士学位授权点14个，二级学科博士学位授权点50个；一
+	  级学科硕士学位授权点25个，二级硕士学位授权点68个，翻译、新闻与传播、工程硕士（含13个工程领域）、工商管理、公共管理、
+	  工程管理等6类专业学位授权点；博士后流动站13个；本科专业53个，其中国家级特色专业建设点14个，省级特色专业22个，此外电
+	  子科大MBA位居全国前列。</p>
+	  </div>
+	  
+	 </div>
+	     
+	 
+	 
+	 
+	 
+	 <!--页尾-->
+	 <div class="line"></div>
+
+	 <div class="footer">
+	     <div class="footer_row1">Copyright&nbsp;@2014&nbsp;DZ88.com&nbsp;电子科技大学&nbsp;版权所有</div>
+		 <div class="footer_row2">备案号：22343456号</div>
+	 </div>	
+     
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

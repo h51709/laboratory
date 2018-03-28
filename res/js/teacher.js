@@ -1,0 +1,4 @@
+$(function(){
+	$(".mask").hide();
+});
+
